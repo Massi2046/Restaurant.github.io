@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.0em;
+    font-weight: 500;
+}
+p {
+    font-family: serif;
+}
+.wrapper {
+        width: 100%;
+        margin: auto;
+}
+
+body {
+    background-color: #f6dda8;
+    font-family: sans-serif;
+}
+
+/* nav */
+.nav {
+    overflow: hidden;
+    width: 100%;
+    padding: 40px 0 40px 1%;
+    text-align: left;
+    background-color: rgba(0,0,0,0.5);
+}
+.nav img {
+    width: 30px;
+    padding: 0 10%;
+}
+.nav ul {
+    width:100%;
+    margin: 0 auto;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 2% 0 1%;
+}
+.nav li a {
+    font-weight: 400;
+    color: #dddddd;
+}
+
+
+/* MV */
+.MV {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background-image: url(../images/jeswin-thomas-PtfRiBumfQU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.MV h2 {
+    color:#ffffff;
+}
+.MV p {
+    color:#ffffff;
+    font-family: serif;
+    margin-bottom: 20px;
+}
+.MV_logo img {
+    width: 160px;
+    height: auto;
+    margin: 0 auto 180px auto;
+    padding: 3px 10px;
+    border: 3px solid #ffffff;
+}
+.MV .MV-text a {
+    color: #ffffff;
+    font-family: serif !important;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.MV .MV-text img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+/* Menu */
+.menu_tbl {
+    position: relative;
+    bottom: 80px;
+}
+
+.menu1, .menu2, .menu3 {
+    width: 100%;
+    max-width:1280px;
+    margin: 0 auto 50px auto;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+    padding-left:0;
+    clear: both;
+    border-radius: 10px; 
+}
+.menu1 h2, .menu2 h2, .menu3 h2 {
+    color: #ffffff;
+    text-align: center;
+    margin:20px auto 10px auto;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-weight: 500;
+    font-size: 1.5em !important;
+}
+.menu1 p, .menu2 p, .menu3 p {
+    color: #ffffff; 
+    text-align: center;  
+    margin-bottom: 20px; 
+}
+.menu1 {
+    height: 100%;
+    min-height: 950px;
+}
+.menu2 {
+    height: 100%;
+    min-height: 900px;
+}
+.menu3 {
+    height: 100%;
+    min-height: 1050px;
+}
+
+.menu_wrapper li {
+    list-style: none;
+
+
+}
+.menu_img_area {
+    width: 40%;
+    height: auto; 
+    float: left;
+    margin-left: 20px;
+}
+.menu_left_area {
+    width: 40%;
+    height: auto;
+    float: left;
+    padding: 20px 0 0 80px;
+}
+.menu_right_area {
+    width: 60%;
+    height: auto; 
+    float: left;
+}
+.menu_wrapper img {
+    width: 100%;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+.menu_area {
+    background-color: #ffffff;
+    padding: 50px 200px 50px 50px !important;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+li.menu_area_ttl {
+    font-size: 1em;
+    float:left;
+    width:80%;
+    color: #5c4f35;
+}
+li.menu_area_price {
+    font-size: 1em;
+    float:left;
+    width:20%;
+    color: #5c4f35;
+    text-align: right;
+}
+li.menu_area_disc {
+    clear: both;
+    color: #b8ac93;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 30px;
+    font-style: italic;
+    padding-bottom: 10px;
+    text-align: center;
+}
